@@ -2,9 +2,9 @@ package homework;
 
 public abstract class People implements Comparable<People> {
 
-    String sex;
-    int height;
-    int studentId;
+    protected String sex;
+    protected int height;
+    protected int studentId;
 
     People(String sex, int height, int studentId) {
         this.sex = sex;

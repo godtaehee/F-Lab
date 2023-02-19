@@ -20,8 +20,11 @@ public class Main {
             }
         }
 
+        System.out.println("BEFORE");
         System.out.println(arrayList);
+
         arrayList.sort(Comparator.comparing((a) -> a));
+
         System.out.println("AFTER");
         System.out.println(arrayList);
 
