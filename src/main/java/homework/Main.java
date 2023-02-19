@@ -13,10 +13,11 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             double random = Math.random();
             int height = 160 + (int)(random * 20);
+            int studentId = i;
             if (random > 0.5) {
-                arrayList.add(new Man(height, i));
+                arrayList.add(new Man(height));
             } else {
-                arrayList.add(new Woman(height, i));
+                arrayList.add(new Woman(studentId));
             }
         }
 

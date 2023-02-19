@@ -1,16 +1,24 @@
 package homework;
 
 public class Woman extends People {
+    int studentId;
 
-    Woman(int height, int studentId) {
-        super("Woman", height, studentId);
+    Woman(int studentId) {
+        super("Woman");
+        this.studentId = studentId;
     }
 
     @Override
     public int compareTo(People o) {
-        if (!this.sex.equals(o.sex)) {
+        if (o instanceof Woman) {
+            return this.studentId - ((Woman) o).studentId;
+        } else {
             return 1;
         }
-        return this.studentId - o.studentId;
+    }
+
+    @Override
+    public String toString() {
+        return this.sex + " StudentId: " + this.studentId + '\n';
     }
 }
