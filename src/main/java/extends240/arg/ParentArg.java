@@ -1,4 +1,4 @@
-package extends240;
+package extends240.arg;
 
 import extends240.general.InheritancePrint;
 

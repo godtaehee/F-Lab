@@ -1,4 +1,4 @@
-package extends240;
+package extends240.arg;
 
 public class ChildArg extends ParentArg {
     public ChildArg() {
