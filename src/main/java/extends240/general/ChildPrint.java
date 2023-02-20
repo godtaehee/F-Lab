@@ -1,4 +1,4 @@
-package extends240;
+package extends240.general;
 
 public class ChildPrint extends Parent {
     public ChildPrint() {

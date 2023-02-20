@@ -1,4 +1,6 @@
-package extends240;
+package extends240.general;
+
+import extends240.general.Child;
 
 public class InheritancePrint {
     public static void main(String[] args) {

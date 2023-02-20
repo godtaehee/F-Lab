@@ -1,5 +1,7 @@
 package extends240;
 
+import extends240.general.InheritancePrint;
+
 public class ParentArg {
 
     public ParentArg(String name) {
