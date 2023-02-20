@@ -1,4 +1,4 @@
-package extends240;
+package extends240.overriding;
 
 public class ChildOverriding extends ParentOverriding {
 
