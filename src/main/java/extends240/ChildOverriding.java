@@ -6,7 +6,7 @@ public class ChildOverriding extends ParentOverriding {
         System.out.println("ChildOverriding Constructor");
     }
 
-    public void printName() {
+    public String printName() {
         System.out.println("printName() - ChildOverriding");
     }
 }
