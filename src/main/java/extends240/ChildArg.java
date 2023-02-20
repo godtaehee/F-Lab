@@ -2,7 +2,7 @@ package extends240;
 
 public class ChildArg extends ParentArg {
     public ChildArg() {
-        super(null);
+        super("ChildArg");
         System.out.println("Child Constructor");
     }
 }
