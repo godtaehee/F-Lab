@@ -6,7 +6,6 @@ public class InheritancePrint {
         child.printName();
 
         // Log
-        // Parent Constructor
         // Child Constructor
         // Parent printName()
     }
