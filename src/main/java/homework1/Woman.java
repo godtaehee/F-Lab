@@ -1,4 +1,4 @@
-package homework;
+package homework1;
 
 public class Woman extends People {
     int studentId;
