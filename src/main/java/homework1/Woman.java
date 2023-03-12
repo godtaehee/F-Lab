@@ -3,7 +3,7 @@ package homework1;
 public class Woman extends People {
     int studentId;
 
-    Woman(int studentId) {
+    public Woman(int studentId) {
         super("Woman");
         this.studentId = studentId;
     }
@@ -20,5 +20,9 @@ public class Woman extends People {
     @Override
     public String toString() {
         return this.sex + " StudentId: " + this.studentId + '\n';
+    }
+
+    public int getStudentId() {
+        return studentId;
     }
 }

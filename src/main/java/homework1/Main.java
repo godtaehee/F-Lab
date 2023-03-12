@@ -1,8 +1,6 @@
 package homework1;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
@@ -22,12 +20,12 @@ public class Main {
         }
 
         System.out.println("BEFORE");
-        System.out.println(arrayList);
+//        System.out.println(arrayList);
 
         arrayList.sort(Comparator.comparing((a) -> a));
 
         System.out.println("AFTER");
-        System.out.println(arrayList);
+//        System.out.println(arrayList);
 
     }
 }
