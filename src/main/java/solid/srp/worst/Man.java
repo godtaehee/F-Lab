@@ -2,6 +2,7 @@ package solid.srp.worst;
 
 // Contains many roles in Man
 
+// 남자의 많은 역할이 너무 몰려있다.
 public class Man {
 
     // Child
